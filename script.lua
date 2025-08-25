@@ -71,4 +71,4 @@ local a=getconnections or get_signal_cons;if a then for b,c in pairs(a(game.Play
 game:GetService("Players").LocalPlayer.PlayerScripts.AutoTimeout:Destroy()
 
 local que = queue_on_teleport or queueonteleport
-que('loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()')
+que('loadstring("https://raw.githubusercontent.com/cosmicpsx/website/refs/heads/main/script.lua"))()')
